@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.Weather;
 
 class WatchFaceCustomView extends WatchUi.WatchFace {
 
@@ -43,6 +44,17 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         view.setText(timeString);
+
+        // get Rain chance from informations
+        var rainFormat = "$1$%";
+        var rainChance = Weather.getCurrentConditions();
+        var rainfallChance = rainChance.precipitationChance;
+        var rainString = Lang.format(rainFormat, [rainfallChance]);
+
+        
+        var riskOfRain = View.findDrawableById("RainChance") as Text;
+        riskOfRain.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        riskOfRain.setText(rainString);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

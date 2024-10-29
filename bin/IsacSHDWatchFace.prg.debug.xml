@@ -5,7 +5,7 @@
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="1" lineNum="31" parent="globals" pc="268435460" symbol="getApp"/>
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="1" lineNum="32" parent="globals" pc="268435470" symbol="getApp"/>
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="3" lineNum="7" parent="globals/WatchFaceCustomView" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="3" lineNum="8" parent="globals/WatchFaceCustomView" pc="268435493" symbol="&lt;init&gt;"/>
         <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="5" lineNum="5" parent="globals/WatchFaceCustomApp" pc="268435525" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomBackground.mc" id="6" lineNum="8" parent="globals/Background" pc="268435537" symbol="initialize"/>
@@ -14,37 +14,45 @@
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomBackground.mc" id="7" lineNum="16" parent="globals/Background" pc="268435575" symbol="draw"/>
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomBackground.mc" id="7" lineNum="18" parent="globals/Background" pc="268435577" symbol="draw"/>
         <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomBackground.mc" id="7" lineNum="19" parent="globals/Background" pc="268435608" symbol="draw"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="10" lineNum="14" parent="globals/WatchFaceCustomView" pc="268435617" symbol="onLayout"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="10" lineNum="15" parent="globals/WatchFaceCustomView" pc="268435619" symbol="onLayout"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="12" lineNum="9" parent="globals/WatchFaceCustomView" pc="268435653" symbol="initialize"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="12" lineNum="10" parent="globals/WatchFaceCustomView" pc="268435655" symbol="initialize"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="25" parent="globals/WatchFaceCustomView" pc="268435668" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="27" parent="globals/WatchFaceCustomView" pc="268435671" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="28" parent="globals/WatchFaceCustomView" pc="268435678" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="29" parent="globals/WatchFaceCustomView" pc="268435690" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="30" parent="globals/WatchFaceCustomView" pc="268435698" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="31" parent="globals/WatchFaceCustomView" pc="268435717" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="32" parent="globals/WatchFaceCustomView" pc="268435725" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="35" parent="globals/WatchFaceCustomView" pc="268435738" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="36" parent="globals/WatchFaceCustomView" pc="268435763" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="37" parent="globals/WatchFaceCustomView" pc="268435770" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="40" parent="globals/WatchFaceCustomView" pc="268435789" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="43" parent="globals/WatchFaceCustomView" pc="268435845" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="44" parent="globals/WatchFaceCustomView" pc="268435869" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="45" parent="globals/WatchFaceCustomView" pc="268435901" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="48" parent="globals/WatchFaceCustomView" pc="268435913" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="15" lineNum="12" parent="globals/WatchFaceCustomApp" pc="268435934" symbol="onStart"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="16" lineNum="25" parent="globals/WatchFaceCustomApp" pc="268435937" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="16" lineNum="26" parent="globals/WatchFaceCustomApp" pc="268435939" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="17" lineNum="20" parent="globals/WatchFaceCustomApp" pc="268435951" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="17" lineNum="21" parent="globals/WatchFaceCustomApp" pc="268435953" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="18" lineNum="7" parent="globals/WatchFaceCustomApp" pc="268435983" symbol="initialize"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="18" lineNum="8" parent="globals/WatchFaceCustomApp" pc="268435985" symbol="initialize"/>
-        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="19" lineNum="16" parent="globals/WatchFaceCustomApp" pc="268435998" symbol="onStop"/>
-        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436001" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436012" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436036" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436121" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="10" lineNum="15" parent="globals/WatchFaceCustomView" pc="268435617" symbol="onLayout"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="10" lineNum="16" parent="globals/WatchFaceCustomView" pc="268435619" symbol="onLayout"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="12" lineNum="10" parent="globals/WatchFaceCustomView" pc="268435653" symbol="initialize"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="12" lineNum="11" parent="globals/WatchFaceCustomView" pc="268435655" symbol="initialize"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="26" parent="globals/WatchFaceCustomView" pc="268435668" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="28" parent="globals/WatchFaceCustomView" pc="268435671" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="29" parent="globals/WatchFaceCustomView" pc="268435678" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="30" parent="globals/WatchFaceCustomView" pc="268435690" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="31" parent="globals/WatchFaceCustomView" pc="268435698" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="32" parent="globals/WatchFaceCustomView" pc="268435717" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="33" parent="globals/WatchFaceCustomView" pc="268435725" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="36" parent="globals/WatchFaceCustomView" pc="268435738" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="37" parent="globals/WatchFaceCustomView" pc="268435763" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="38" parent="globals/WatchFaceCustomView" pc="268435770" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="41" parent="globals/WatchFaceCustomView" pc="268435789" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="44" parent="globals/WatchFaceCustomView" pc="268435845" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="45" parent="globals/WatchFaceCustomView" pc="268435869" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="46" parent="globals/WatchFaceCustomView" pc="268435901" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="49" parent="globals/WatchFaceCustomView" pc="268435913" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="50" parent="globals/WatchFaceCustomView" pc="268435920" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="51" parent="globals/WatchFaceCustomView" pc="268435932" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="52" parent="globals/WatchFaceCustomView" pc="268435940" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="55" parent="globals/WatchFaceCustomView" pc="268435965" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="56" parent="globals/WatchFaceCustomView" pc="268435989" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="57" parent="globals/WatchFaceCustomView" pc="268436021" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomView.mc" id="14" lineNum="60" parent="globals/WatchFaceCustomView" pc="268436033" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="15" lineNum="12" parent="globals/WatchFaceCustomApp" pc="268436054" symbol="onStart"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="16" lineNum="25" parent="globals/WatchFaceCustomApp" pc="268436057" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="16" lineNum="26" parent="globals/WatchFaceCustomApp" pc="268436059" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="17" lineNum="20" parent="globals/WatchFaceCustomApp" pc="268436071" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="17" lineNum="21" parent="globals/WatchFaceCustomApp" pc="268436073" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="18" lineNum="7" parent="globals/WatchFaceCustomApp" pc="268436103" symbol="initialize"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="18" lineNum="8" parent="globals/WatchFaceCustomApp" pc="268436105" symbol="initialize"/>
+        <entry filename="C:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\source\\WatchFaceCustomApp.mc" id="19" lineNum="16" parent="globals/WatchFaceCustomApp" pc="268436118" symbol="onStop"/>
+        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436121" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436132" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436156" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436241" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\jadre\\Documents\\Aktuelle Arbeiten\\Coding\\Garmin\\IsacSHDWatchFace\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436324" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -63,6 +71,7 @@
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
@@ -104,15 +113,21 @@
         <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
         <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435575"/>
         <entry arg="true" endPc="268435652" name="dc" stackId="1" startPc="268435617"/>
-        <entry arg="true" endPc="268435933" name="dc" stackId="1" startPc="268435668"/>
-        <entry endPc="268435932" name="timeFormat" stackId="2" startPc="268435671"/>
-        <entry endPc="268435932" name="clockTime" stackId="3" startPc="268435671"/>
-        <entry endPc="268435932" name="hours" stackId="4" startPc="268435671"/>
-        <entry endPc="268435932" name="timeString" stackId="5" startPc="268435671"/>
-        <entry endPc="268435932" name="view" stackId="6" startPc="268435671"/>
-        <entry arg="true" endPc="268436135" name="dc" stackId="1" startPc="268436001"/>
-        <entry endPc="268436135" name="rez_cmp_local_custom_drawable_20327921177732118883" stackId="2" startPc="268436012"/>
-        <entry endPc="268436135" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436012"/>
+        <entry arg="true" endPc="268436053" name="dc" stackId="1" startPc="268435668"/>
+        <entry endPc="268436052" name="timeFormat" stackId="2" startPc="268435671"/>
+        <entry endPc="268436052" name="clockTime" stackId="3" startPc="268435671"/>
+        <entry endPc="268436052" name="hours" stackId="4" startPc="268435671"/>
+        <entry endPc="268436052" name="timeString" stackId="5" startPc="268435671"/>
+        <entry endPc="268436052" name="view" stackId="6" startPc="268435671"/>
+        <entry endPc="268436052" name="rainFormat" stackId="7" startPc="268435671"/>
+        <entry endPc="268436052" name="rainChance" stackId="8" startPc="268435671"/>
+        <entry endPc="268436052" name="rainfallChance" stackId="9" startPc="268435671"/>
+        <entry endPc="268436052" name="rainString" stackId="10" startPc="268435671"/>
+        <entry endPc="268436052" name="riskOfRain" stackId="11" startPc="268435671"/>
+        <entry arg="true" endPc="268436343" name="dc" stackId="1" startPc="268436121"/>
+        <entry endPc="268436343" name="rez_cmp_local_custom_drawable_19273143219713267721" stackId="2" startPc="268436132"/>
+        <entry endPc="268436343" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436132"/>
+        <entry endPc="268436343" name="rez_cmp_local_text_RainChance" stackId="4" startPc="268436132"/>
     </localVars>
     <deviceInfo deviceVersion="d768f42b362bd6ce30dcbbc223d308fbb5a79106" partNumber="006-B3703-00"/>
     <annotations>
@@ -181,7 +196,7 @@
         <functionEntry accessMode="public" name="onHide" parent="WatchFaceCustomView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435933" name="onUpdate" parent="WatchFaceCustomView" startPc="268435668">
+        <functionEntry accessMode="public" endPc="268436053" name="onUpdate" parent="WatchFaceCustomView" startPc="268435668">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -194,24 +209,24 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435936" name="onStart" parent="WatchFaceCustomApp" startPc="268435934">
+        <functionEntry accessMode="public" endPc="268436056" name="onStart" parent="WatchFaceCustomApp" startPc="268436054">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435950" name="onSettingsChanged" parent="WatchFaceCustomApp" startPc="268435937">
+        <functionEntry accessMode="public" endPc="268436070" name="onSettingsChanged" parent="WatchFaceCustomApp" startPc="268436057">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435982" name="getInitialView" parent="WatchFaceCustomApp" startPc="268435951">
+        <functionEntry accessMode="public" endPc="268436102" name="getInitialView" parent="WatchFaceCustomApp" startPc="268436071">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435997" name="initialize" parent="WatchFaceCustomApp" startPc="268435983">
+        <functionEntry accessMode="public" endPc="268436117" name="initialize" parent="WatchFaceCustomApp" startPc="268436103">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436000" name="onStop" parent="WatchFaceCustomApp" startPc="268435998">
+        <functionEntry accessMode="public" endPc="268436120" name="onStop" parent="WatchFaceCustomApp" startPc="268436118">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436135" name="WatchFace" parent="Layouts" startPc="268436001">
+        <functionEntry accessMode="public" endPc="268436343" name="WatchFace" parent="Layouts" startPc="268436121">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
