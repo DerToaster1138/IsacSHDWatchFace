@@ -37,7 +37,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
                 hours = hours.format("%02d");
             }
         }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d"), clockTime.sec.format("%03d")]);
+        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d"), clockTime.sec]);
 
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
