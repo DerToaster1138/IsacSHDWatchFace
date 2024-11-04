@@ -59,7 +59,7 @@
   }, {
     "key" : "UseMilitaryFormat",
     "valueType" : "boolean",
-    "defaultValue" : true,
+    "defaultValue" : false,
     "configTitle" : "MilitaryFormatTitle",
     "configPrompt" : null,
     "configType" : "boolean",

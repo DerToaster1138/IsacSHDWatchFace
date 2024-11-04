@@ -20,6 +20,33 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+        
+        // get Rain chance from WeatherData
+        var rainFormat = "$1$ R%";
+        var weatherdata = Weather.getCurrentConditions();
+        var rainfallChance = weatherdata.precipitationChance;
+        var rainString = Lang.format(rainFormat, [rainfallChance]);
+
+        //get Temperature by reusing WeatherData
+        var temperatureFormat = "$1$°C";
+        var currentTemperature = weatherdata.temperature;
+        currentTemperature = currentTemperature.toNumber();
+        var temperatureString = Lang.format(temperatureFormat, [currentTemperature]);
+
+        //TODO 1: get BatteryCharge
+
+
+        //Draw RainChance
+        var riskOfRain = View.findDrawableById("RainChance") as Text;
+        riskOfRain.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        riskOfRain.setText(rainString);
+
+        //Draw Temperature
+        var temperatureText = View.findDrawableById("CurrentTemps") as Text;
+        temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        temperatureText.setText(temperatureString);
+
+        //TODO 2: Draw BatteryCharge
     }
 
     // Update the view
@@ -44,17 +71,6 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         view.setText(timeString);
-
-        // get Rain chance from informations
-        var rainFormat = "$1$%";
-        var rainChance = Weather.getCurrentConditions();
-        var rainfallChance = rainChance.precipitationChance;
-        var rainString = Lang.format(rainFormat, [rainfallChance]);
-
-        
-        var riskOfRain = View.findDrawableById("RainChance") as Text;
-        riskOfRain.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-        riskOfRain.setText(rainString);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

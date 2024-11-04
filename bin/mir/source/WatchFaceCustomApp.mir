@@ -1,66 +1,66 @@
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 1; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 2; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 2; ]
 import Toybox.Lang;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 3; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 3; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 5; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 5; ]
 class WatchFaceCustomApp extends Application.AppBase{
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 5; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 5; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 7; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 7; ]
     function initialize() as Void {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_7_26_9_4_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc" 8 8 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_7_26_9_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc" 8 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_7_26_9_4_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_7_26_9_4_stop:
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 12; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 12; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 16; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 16; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 20; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 20; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_20_68_22_4_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc" 21 8 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_20_68_22_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc" 21 8 ]
         %tmp.1 = newa 1;
         %tmp.5 = getv ? :WatchFaceCustomView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_20_68_22_4_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_20_68_22_4_stop:
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 25; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 25; ]
     function onSettingsChanged() as Void {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_25_41_27_4_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc" 26 8 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_25_41_27_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc" 26 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_25_41_27_4_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_25_41_27_4_stop:
     }
 }
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 31; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 31; ]
 function getApp() as WatchFaceCustomApp {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_31_40_33_0_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc" 32 4 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_31_40_33_0_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc" 32 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 WatchFaceCustomApp;
     ret %tmp.4;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomApp_mc_31_40_33_0_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomApp_mc_31_40_33_0_stop:
 }
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomApp.mc"; @line = 1; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomApp.mc"; @line = 1; ]
 <init> {
 }

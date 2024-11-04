@@ -1,37 +1,37 @@
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 1; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 2; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 2; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 3; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 4; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 4; ]
 import Toybox.System;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 5; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 5; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 6; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 6; ]
 import Toybox.Weather;
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 8; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 8; ]
 class WatchFaceCustomView extends WatchUi.WatchFace{
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 8; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 8; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 10; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 10; ]
     function initialize() as Void {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_10_26_12_4_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 11 8 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_10_26_12_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 11 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_10_26_12_4_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_10_26_12_4_stop:
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 15; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 15; ]
     function onLayout(dc as Dc) as Void {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_15_40_17_4_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 16 8 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_15_40_17_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 16 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -40,88 +40,196 @@ C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_15_40_17_4_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_15_40_17_4_stop:
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 22; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 22; ]
     function onShow() as Void {
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 25 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %rainFormat.1 = local;
+        %tmp.1 = "$1$ R%";
+        lputv %rainFormat.1 %tmp.1;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 26 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %weatherdata.2 = local;
+        %tmp.2 = getm $.Toybox.Weather;
+        %tmp.3 = getv function %tmp.2 :getCurrentConditions;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %weatherdata.2 %tmp.4;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 27 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %rainfallChance.3 = local;
+        %tmp.5 = lgetv %weatherdata.2;
+        %tmp.6 = getv %tmp.5 :precipitationChance;
+        lputv %rainfallChance.3 %tmp.6;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 28 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %rainString.4 = local;
+        %tmp.7 = getm $.Toybox.Lang;
+        %tmp.8 = getv function %tmp.7 :format;
+        %tmp.10 = lgetv %rainFormat.1;
+        %tmp.11 = newa 1;
+        %tmp.13 = lgetv %rainfallChance.3;
+        %tmp.14 = dup %tmp.11;
+        %tmp.15 = aputv %tmp.14 0 %tmp.13;
+        %tmp.16 = invoke %tmp.7 %tmp.8(%tmp.10, %tmp.15);
+        lputv %rainString.4 %tmp.16;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 31 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %temperatureFormat.5 = local;
+        %tmp.17 = "$1$°C";
+        lputv %temperatureFormat.5 %tmp.17;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 32 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %currentTemperature.6 = local;
+        %tmp.18 = lgetv %weatherdata.2;
+        %tmp.19 = getv %tmp.18 :temperature;
+        lputv %currentTemperature.6 %tmp.19;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 33 8 ]
+        %tmp.20 = lgetv %currentTemperature.6;
+        %tmp.21 = getv function %tmp.20 :toNumber;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %currentTemperature.6 %tmp.22;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 34 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %temperatureString.7 = local;
+        %tmp.23 = getm $.Toybox.Lang;
+        %tmp.24 = getv function %tmp.23 :format;
+        %tmp.26 = lgetv %temperatureFormat.5;
+        %tmp.27 = newa 1;
+        %tmp.29 = lgetv %currentTemperature.6;
+        %tmp.30 = dup %tmp.27;
+        %tmp.31 = aputv %tmp.30 0 %tmp.29;
+        %tmp.32 = invoke %tmp.23 %tmp.24(%tmp.26, %tmp.31);
+        lputv %temperatureString.7 %tmp.32;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 40 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %riskOfRain.8 = local;
+        %tmp.34 = getv ? :View;
+        %tmp.35 = getv function %tmp.34 :findDrawableById;
+        %tmp.36 = "RainChance";
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        %tmp.38 = as %tmp.37 Text;
+        lputv %riskOfRain.8 %tmp.38;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 41 8 ]
+        %tmp.39 = lgetv %riskOfRain.8;
+        %tmp.40 = getv function %tmp.39 :setColor;
+        %tmp.41 = getm $.Toybox.Application;
+        %tmp.42 = getv %tmp.41 :Properties;
+        %tmp.43 = getv function %tmp.42 :getValue;
+        %tmp.44 = "ForegroundColor";
+        %tmp.45 = invoke %tmp.42 %tmp.43(%tmp.44);
+        %tmp.46 = as %tmp.45 Number;
+        invoke %tmp.39 %tmp.40(%tmp.46);
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 42 8 ]
+        %tmp.47 = lgetv %riskOfRain.8;
+        %tmp.48 = getv function %tmp.47 :setText;
+        %tmp.50 = lgetv %rainString.4;
+        invoke %tmp.47 %tmp.48(%tmp.50);
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 45 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop" ]
+        %temperatureText.9 = local;
+        %tmp.52 = getv ? :View;
+        %tmp.53 = getv function %tmp.52 :findDrawableById;
+        %tmp.54 = "CurrentTemps";
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        %tmp.56 = as %tmp.55 Text;
+        lputv %temperatureText.9 %tmp.56;
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 46 8 ]
+        %tmp.57 = lgetv %temperatureText.9;
+        %tmp.58 = getv function %tmp.57 :setColor;
+        %tmp.59 = getm $.Toybox.Application;
+        %tmp.60 = getv %tmp.59 :Properties;
+        %tmp.61 = getv function %tmp.60 :getValue;
+        %tmp.62 = "ForegroundColor";
+        %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
+        %tmp.64 = as %tmp.63 Number;
+        invoke %tmp.57 %tmp.58(%tmp.64);
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 47 8 ]
+        %tmp.65 = lgetv %temperatureText.9;
+        %tmp.66 = getv function %tmp.65 :setText;
+        %tmp.68 = lgetv %temperatureString.7;
+        invoke %tmp.65 %tmp.66(%tmp.68);
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_22_30_50_4_stop:
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 26; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 53; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 28 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 55 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_stop" ]
         %timeFormat.1 = local;
         %tmp.1 = "$1$:$2$:$3$";
         lputv %timeFormat.1 %tmp.1;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 29 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 56 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_stop" ]
         %clockTime.2 = local;
         %tmp.2 = getm $.Toybox.System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.2 %tmp.4;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 30 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 57 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_stop" ]
         %hours.3 = local;
         %tmp.5 = lgetv %clockTime.2;
         %tmp.6 = getv %tmp.5 :hour;
         lputv %hours.3 %tmp.6;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 31 8 ]
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_8_40_8_if_stmt:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 58 8 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_8_67_8_if_stmt:
         %tmp.7 = getm $.Toybox.System;
         %tmp.8 = getv function %tmp.7 :getDeviceSettings;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = getv %tmp.9 :is24Hour;
         %tmp.11 = not %tmp.10;
-        bf %tmp.11 @C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_8_40_8_if_false;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_8_40_8_if_true:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_50_35_8_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 32 12 ]
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_12_34_12_if_stmt:
+        bf %tmp.11 @C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_8_67_8_if_false;
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_8_67_8_if_true:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_50_62_8_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 59 12 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_12_61_12_if_stmt:
         %tmp.13 = lgetv %hours.3;
         %tmp.14 = 12;
         %tmp.15 = gt %tmp.13 %tmp.14;
-        bf %tmp.15 @C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_12_34_12_if_end;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_12_34_12_if_true:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_28_34_12_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 33 16 ]
+        bf %tmp.15 @C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_12_61_12_if_end;
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_12_61_12_if_true:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_28_61_12_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 60 16 ]
         %tmp.17 = lgetv %hours.3;
         %tmp.18 = 12;
         %tmp.19 = sub %tmp.17 %tmp.18;
         lputv %hours.3 %tmp.19;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_28_34_12_stop:
-        goto @C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_12_34_12_if_end;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_32_12_34_12_if_end:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_50_35_8_stop:
-        goto @C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_8_40_8_if_end;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_8_40_8_if_false:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_35_15_40_8_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 36 12 ]
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_12_39_12_if_stmt:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_28_61_12_stop:
+        goto @C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_12_61_12_if_end;
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_59_12_61_12_if_end:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_50_62_8_stop:
+        goto @C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_8_67_8_if_end;
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_8_67_8_if_false:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_62_15_67_8_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 63 12 ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_12_66_12_if_stmt:
         %tmp.20 = getm $.Toybox.Application;
         %tmp.21 = getv %tmp.20 :Properties;
         %tmp.22 = getv function %tmp.21 :getValue;
         %tmp.23 = "UseMilitaryFormat";
         %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
-        bf %tmp.24 @C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_12_39_12_if_end;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_12_39_12_if_true:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_70_39_12_start:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 37 16 ]
+        bf %tmp.24 @C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_12_66_12_if_end;
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_12_66_12_if_true:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_70_66_12_start:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 64 16 ]
         %tmp.25 = "$1$$2$$3$";
         lputv %timeFormat.1 %tmp.25;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 38 16 ]
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 65 16 ]
         %tmp.26 = lgetv %hours.3;
         %tmp.27 = getv function %tmp.26 :format;
         %tmp.28 = "%02d";
         %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
         lputv %hours.3 %tmp.29;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_70_39_12_stop:
-        goto @C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_12_39_12_if_end;
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_36_12_39_12_if_end:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_35_15_40_8_stop:
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_31_8_40_8_if_end:
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 41 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_70_66_12_stop:
+        goto @C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_12_66_12_if_end;
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_63_12_66_12_if_end:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_62_15_67_8_stop:
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_58_8_67_8_if_end:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 68 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_stop" ]
         %timeString.4 = local;
         %tmp.30 = getm $.Toybox.Lang;
         %tmp.31 = getv function %tmp.30 :format;
@@ -143,8 +251,8 @@ C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_
         %tmp.49 = aputv %tmp.48 2 %tmp.47;
         %tmp.50 = invoke %tmp.30 %tmp.31(%tmp.33, %tmp.49);
         lputv %timeString.4 %tmp.50;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 44 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 71 8 ]
+        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_stop" ]
         %view.5 = local;
         %tmp.52 = getv ? :View;
         %tmp.53 = getv function %tmp.52 :findDrawableById;
@@ -152,7 +260,7 @@ C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_
         %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
         %tmp.56 = as %tmp.55 Text;
         lputv %view.5 %tmp.56;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 45 8 ]
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 72 8 ]
         %tmp.57 = lgetv %view.5;
         %tmp.58 = getv function %tmp.57 :setColor;
         %tmp.59 = getm $.Toybox.Application;
@@ -162,82 +270,28 @@ C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_
         %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
         %tmp.64 = as %tmp.63 Number;
         invoke %tmp.57 %tmp.58(%tmp.64);
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 46 8 ]
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 73 8 ]
         %tmp.65 = lgetv %view.5;
         %tmp.66 = getv function %tmp.65 :setText;
         %tmp.68 = lgetv %timeString.4;
         invoke %tmp.65 %tmp.66(%tmp.68);
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 49 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
-        %rainFormat.6 = local;
-        %tmp.69 = "$1$%";
-        lputv %rainFormat.6 %tmp.69;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 50 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
-        %rainChance.7 = local;
-        %tmp.70 = getm $.Toybox.Weather;
-        %tmp.71 = getv function %tmp.70 :getCurrentConditions;
-        %tmp.72 = invoke %tmp.70 %tmp.71();
-        lputv %rainChance.7 %tmp.72;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 51 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
-        %rainfallChance.8 = local;
-        %tmp.73 = lgetv %rainChance.7;
-        %tmp.74 = getv %tmp.73 :precipitationChance;
-        lputv %rainfallChance.8 %tmp.74;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 52 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
-        %rainString.9 = local;
-        %tmp.75 = getm $.Toybox.Lang;
-        %tmp.76 = getv function %tmp.75 :format;
-        %tmp.78 = lgetv %rainFormat.6;
-        %tmp.79 = newa 1;
-        %tmp.81 = lgetv %rainfallChance.8;
-        %tmp.82 = dup %tmp.79;
-        %tmp.83 = aputv %tmp.82 0 %tmp.81;
-        %tmp.84 = invoke %tmp.75 %tmp.76(%tmp.78, %tmp.83);
-        lputv %rainString.9 %tmp.84;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 55 8 ]
-        [ "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_start" "C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop" ]
-        %riskOfRain.10 = local;
-        %tmp.86 = getv ? :View;
-        %tmp.87 = getv function %tmp.86 :findDrawableById;
-        %tmp.88 = "RainChance";
-        %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
-        %tmp.90 = as %tmp.89 Text;
-        lputv %riskOfRain.10 %tmp.90;
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 56 8 ]
-        %tmp.91 = lgetv %riskOfRain.10;
-        %tmp.92 = getv function %tmp.91 :setColor;
-        %tmp.93 = getm $.Toybox.Application;
-        %tmp.94 = getv %tmp.93 :Properties;
-        %tmp.95 = getv function %tmp.94 :getValue;
-        %tmp.96 = "ForegroundColor";
-        %tmp.97 = invoke %tmp.94 %tmp.95(%tmp.96);
-        %tmp.98 = as %tmp.97 Number;
-        invoke %tmp.91 %tmp.92(%tmp.98);
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 57 8 ]
-        %tmp.99 = lgetv %riskOfRain.10;
-        %tmp.100 = getv function %tmp.99 :setText;
-        %tmp.102 = lgetv %rainString.9;
-        invoke %tmp.99 %tmp.100(%tmp.102);
-[ "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc" 60 8 ]
-        %tmp.104 = getv ? :View;
-        %tmp.105 = getv function %tmp.104 :onUpdate;
-        %tmp.107 = lgetv %dc;
-        invoke %tmp.104 %tmp.105(%tmp.107);
-C_Users_jadre_Documents_Aktuelle_Arbeiten_Coding_Garmin_IsacSHDWatchFace_source_WatchFaceCustomView_mc_26_40_61_4_stop:
+[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc" 76 8 ]
+        %tmp.70 = getv ? :View;
+        %tmp.71 = getv function %tmp.70 :onUpdate;
+        %tmp.73 = lgetv %dc;
+        invoke %tmp.70 %tmp.71(%tmp.73);
+C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomView_mc_53_40_77_4_stop:
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 66; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 82; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 70; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 86; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 74; ]
+    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 90; ]
     function onEnterSleep() as Void {
     }
 }
-[ @file = "C:\Users\jadre\Documents\Aktuelle Arbeiten\Coding\Garmin\IsacSHDWatchFace\source\WatchFaceCustomView.mc"; @line = 1; ]
+[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomView.mc"; @line = 1; ]
 <init> {
 }
