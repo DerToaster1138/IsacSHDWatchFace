@@ -1,25 +1,25 @@
-[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 1; ]
+[ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 2; ]
+[ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 2; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 3; ]
+[ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 4; ]
+[ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 4; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 6; ]
+[ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 6; ]
 class Background extends WatchUi.Drawable{
-    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 6; ]
+    [ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 6; ]
+    [ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 8; ]
+    [ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 8; ]
     function initialize() as Void {
-C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc_8_26_14_4_start:
-[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc" 9 8 ]
-        [ "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc_8_26_14_4_start" "C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc_8_26_14_4_stop" ]
+C_Projects_GitHub_IsacSHDWatchFace_source_WatchFaceCustomBackground_mc_8_26_14_4_start:
+[ "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc" 9 8 ]
+        [ "C_Projects_GitHub_IsacSHDWatchFace_source_WatchFaceCustomBackground_mc_8_26_14_4_start" "C_Projects_GitHub_IsacSHDWatchFace_source_WatchFaceCustomBackground_mc_8_26_14_4_stop" ]
         %dictionary.1 = local;
         %tmp.1 = newd 1;
         %tmp.3 = const :identifier;
@@ -27,17 +27,17 @@ C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc
         %tmp.5 = dup %tmp.1;
         %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
         lputv %dictionary.1 %tmp.6;
-[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc" 13 8 ]
+[ "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc" 13 8 ]
         %tmp.8 = getv ? :Drawable;
         %tmp.9 = getv function %tmp.8 :initialize;
         %tmp.11 = lgetv %dictionary.1;
         invoke %tmp.8 %tmp.9(%tmp.11);
-C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc_8_26_14_4_stop:
+C_Projects_GitHub_IsacSHDWatchFace_source_WatchFaceCustomBackground_mc_8_26_14_4_stop:
     }
-    [ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 16; ]
+    [ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 16; ]
     function draw(dc as Dc) as Void {
-C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc_16_36_20_4_start:
-[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc" 18 8 ]
+C_Projects_GitHub_IsacSHDWatchFace_source_WatchFaceCustomBackground_mc_16_36_20_4_start:
+[ "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc" 18 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -50,13 +50,13 @@ C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         %tmp.11 = as %tmp.10 Number;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.11);
-[ "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc" 19 8 ]
+[ "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc" 19 8 ]
         %tmp.12 = lgetv %dc;
         %tmp.13 = getv function %tmp.12 :clear;
         invoke %tmp.12 %tmp.13();
-C_Users_localadmin_Documents_WatchFaceCustom_source_WatchFaceCustomBackground_mc_16_36_20_4_stop:
+C_Projects_GitHub_IsacSHDWatchFace_source_WatchFaceCustomBackground_mc_16_36_20_4_stop:
     }
 }
-[ @file = "C:\Users\localadmin\Documents\WatchFaceCustom\source\WatchFaceCustomBackground.mc"; @line = 1; ]
+[ @file = "C:\Projects\GitHub\IsacSHDWatchFace\source\WatchFaceCustomBackground.mc"; @line = 1; ]
 <init> {
 }
