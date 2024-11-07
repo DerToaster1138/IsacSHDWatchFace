@@ -31,10 +31,10 @@ module Rez {
 c_Projects_GitHub_IsacSHDWatchFace_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_25_8_start:
 [ "c:\Projects\GitHub\IsacSHDWatchFace\bin\gen\006-B3703-00\source\Rez.mcgen" 14 12 ]
             [ "c_Projects_GitHub_IsacSHDWatchFace_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_25_8_start" "c_Projects_GitHub_IsacSHDWatchFace_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_25_8_stop" ]
-            %rez_cmp_local_custom_drawable_12131910713889807689.1 = local;
+            %rez_cmp_local_custom_drawable_17249882071465204311.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_12131910713889807689.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_17249882071465204311.1 %tmp.1;
 [ "c:\Projects\GitHub\IsacSHDWatchFace\bin\gen\006-B3703-00\source\Rez.mcgen" 16 12 ]
             [ "c_Projects_GitHub_IsacSHDWatchFace_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_25_8_start" "c_Projects_GitHub_IsacSHDWatchFace_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_25_8_stop" ]
             %rez_cmp_local_text_TimeLabel.2 = local;
@@ -181,7 +181,7 @@ c_Projects_GitHub_IsacSHDWatchFace_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_2
             lputv %rez_cmp_local_text_BatCharge.5 %tmp.121;
 [ "c:\Projects\GitHub\IsacSHDWatchFace\bin\gen\006-B3703-00\source\Rez.mcgen" 24 12 ]
             %tmp.161 = newa 5 Array<WatchUi.Drawable>;
-            %tmp.163 = lgetv %rez_cmp_local_custom_drawable_12131910713889807689.1;
+            %tmp.163 = lgetv %rez_cmp_local_custom_drawable_17249882071465204311.1;
             %tmp.164 = dup %tmp.161;
             %tmp.165 = aputv %tmp.164 0 %tmp.163;
             %tmp.167 = lgetv %rez_cmp_local_text_TimeLabel.2;

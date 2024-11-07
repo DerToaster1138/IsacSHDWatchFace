@@ -11,7 +11,7 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_17249882071465204311 = new Background();
+            var rez_cmp_local_custom_drawable_31499471148379833841 = new Background();
 
             var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(416 * 0.5), :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
@@ -21,7 +21,7 @@ module Rez {
 
             var rez_cmp_local_text_BatCharge = new WatchUi.Text({:identifier=>"BatCharge", :color=>Graphics.COLOR_BLUE, :locX=>(416 * 0.5), :locY=>40, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_custom_drawable_17249882071465204311, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_RainChance, rez_cmp_local_text_CurrentTemps, rez_cmp_local_text_BatCharge] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_31499471148379833841, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_RainChance, rez_cmp_local_text_CurrentTemps, rez_cmp_local_text_BatCharge] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
