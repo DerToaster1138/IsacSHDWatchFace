@@ -1,2 +1,5 @@
 /bin
 *.prg.debug.xml
+/gen
+/mir
+/internal-mir

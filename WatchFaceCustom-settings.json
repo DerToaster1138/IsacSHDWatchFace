@@ -29,7 +29,7 @@
   }, {
     "key" : "ForegroundColor",
     "valueType" : "number",
-    "defaultValue" : 16711680,
+    "defaultValue" : 16739091,
     "configTitle" : "ForegroundColorTitle",
     "configPrompt" : null,
     "configType" : "list",
@@ -49,6 +49,9 @@
     }, {
       "display" : "ColorWhite",
       "value" : 16777215
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16739091
     } ],
     "configMin" : null,
     "configMax" : null,
@@ -81,6 +84,7 @@
       "MilitaryFormatTitle" : "Military Format for 24 Hour Time",
       "ColorBlack" : "Black",
       "ColorWhite" : "White",
+      "ColorOrange" : "Orange",
       "AppName" : "WatchFaceCustom"
     }
   }
