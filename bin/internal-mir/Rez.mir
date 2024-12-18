@@ -31,10 +31,10 @@ module Rez {
 c_Users_localadmin_Documents_WatchFaceCustom_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_23_8_start:
 [ "c:\Users\localadmin\Documents\WatchFaceCustom\bin\gen\006-B3703-00\source\Rez.mcgen" 14 12 ]
             [ "c_Users_localadmin_Documents_WatchFaceCustom_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_23_8_start" "c_Users_localadmin_Documents_WatchFaceCustom_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_23_8_stop" ]
-            %rez_cmp_local_custom_drawable_41360901945055074614.1 = local;
+            %rez_cmp_local_custom_drawable_63441125696018296416.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_41360901945055074614.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_63441125696018296416.1 %tmp.1;
 [ "c:\Users\localadmin\Documents\WatchFaceCustom\bin\gen\006-B3703-00\source\Rez.mcgen" 16 12 ]
             [ "c_Users_localadmin_Documents_WatchFaceCustom_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_23_8_start" "c_Users_localadmin_Documents_WatchFaceCustom_bin_gen_006_B3703_00_source_Rez_mcgen_13_73_23_8_stop" ]
             %rez_cmp_local_text_TimeLabel.2 = local;
@@ -144,7 +144,7 @@ c_Users_localadmin_Documents_WatchFaceCustom_bin_gen_006_B3703_00_source_Rez_mcg
             lputv %rez_cmp_local_text_CurrentTemps.4 %tmp.83;
 [ "c:\Users\localadmin\Documents\WatchFaceCustom\bin\gen\006-B3703-00\source\Rez.mcgen" 22 12 ]
             %tmp.121 = newa 4 Array<WatchUi.Drawable>;
-            %tmp.123 = lgetv %rez_cmp_local_custom_drawable_41360901945055074614.1;
+            %tmp.123 = lgetv %rez_cmp_local_custom_drawable_63441125696018296416.1;
             %tmp.124 = dup %tmp.121;
             %tmp.125 = aputv %tmp.124 0 %tmp.123;
             %tmp.127 = lgetv %rez_cmp_local_text_TimeLabel.2;
