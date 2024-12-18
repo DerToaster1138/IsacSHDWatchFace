@@ -33,7 +33,10 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         currentTemperature = currentTemperature.toNumber();
         var temperatureString = Lang.format(temperatureFormat, [currentTemperature]);
 
-        //TODO 1: get BatteryCharge
+        //get System Stats
+        var sysStats = System.getSystemStats();
+
+
 
 
         //Draw RainChance
@@ -46,7 +49,13 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         temperatureText.setText(temperatureString);
 
-        //TODO 2: Draw BatteryCharge
+        //Draw BatteryCharge
+        var batChargeFormat = "$1$%";
+        var batChargeNum = sysStats.battery.toNumber();
+        var batChargeText = Lang.format(batChargeFormat, [batChargeNum]);
+        var batCharge =  View.findDrawableById("BatCharge") as Text;
+        batCharge.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        batCharge.setText(batChargeText);
     }
 
     // Update the view
