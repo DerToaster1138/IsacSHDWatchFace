@@ -23,45 +23,53 @@
 <entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="32" parent="globals/WatchFaceCustomView" pc="268435679" symbol="onShow"/>
 <entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="33" parent="globals/WatchFaceCustomView" pc="268435687" symbol="onShow"/>
 <entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="34" parent="globals/WatchFaceCustomView" pc="268435696" symbol="onShow"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="40" parent="globals/WatchFaceCustomView" pc="268435721" symbol="onShow"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="41" parent="globals/WatchFaceCustomView" pc="268435745" symbol="onShow"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="42" parent="globals/WatchFaceCustomView" pc="268435777" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="37" parent="globals/WatchFaceCustomView" pc="268435721" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="43" parent="globals/WatchFaceCustomView" pc="268435733" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="44" parent="globals/WatchFaceCustomView" pc="268435757" symbol="onShow"/>
 <entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="45" parent="globals/WatchFaceCustomView" pc="268435789" symbol="onShow"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="46" parent="globals/WatchFaceCustomView" pc="268435813" symbol="onShow"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="47" parent="globals/WatchFaceCustomView" pc="268435845" symbol="onShow"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="10" lineNum="15" parent="globals/WatchFaceCustomView" pc="268435858" symbol="onLayout"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="10" lineNum="16" parent="globals/WatchFaceCustomView" pc="268435860" symbol="onLayout"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="12" lineNum="10" parent="globals/WatchFaceCustomView" pc="268435894" symbol="initialize"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="12" lineNum="11" parent="globals/WatchFaceCustomView" pc="268435896" symbol="initialize"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="53" parent="globals/WatchFaceCustomView" pc="268435909" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="55" parent="globals/WatchFaceCustomView" pc="268435912" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="56" parent="globals/WatchFaceCustomView" pc="268435919" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="57" parent="globals/WatchFaceCustomView" pc="268435931" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="58" parent="globals/WatchFaceCustomView" pc="268435939" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="59" parent="globals/WatchFaceCustomView" pc="268435958" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="60" parent="globals/WatchFaceCustomView" pc="268435966" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="63" parent="globals/WatchFaceCustomView" pc="268435979" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="64" parent="globals/WatchFaceCustomView" pc="268436004" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="65" parent="globals/WatchFaceCustomView" pc="268436011" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="68" parent="globals/WatchFaceCustomView" pc="268436030" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="71" parent="globals/WatchFaceCustomView" pc="268436086" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="72" parent="globals/WatchFaceCustomView" pc="268436110" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="73" parent="globals/WatchFaceCustomView" pc="268436142" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="76" parent="globals/WatchFaceCustomView" pc="268436154" symbol="onUpdate"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="15" lineNum="12" parent="globals/WatchFaceCustomApp" pc="268436175" symbol="onStart"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="16" lineNum="25" parent="globals/WatchFaceCustomApp" pc="268436178" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="16" lineNum="26" parent="globals/WatchFaceCustomApp" pc="268436180" symbol="onSettingsChanged"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="17" lineNum="20" parent="globals/WatchFaceCustomApp" pc="268436192" symbol="getInitialView"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="17" lineNum="21" parent="globals/WatchFaceCustomApp" pc="268436194" symbol="getInitialView"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="18" lineNum="7" parent="globals/WatchFaceCustomApp" pc="268436224" symbol="initialize"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="18" lineNum="8" parent="globals/WatchFaceCustomApp" pc="268436226" symbol="initialize"/>
-<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="19" lineNum="16" parent="globals/WatchFaceCustomApp" pc="268436239" symbol="onStop"/>
-<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436242" symbol="WatchFace"/>
-<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436253" symbol="WatchFace"/>
-<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436277" symbol="WatchFace"/>
-<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436362" symbol="WatchFace"/>
-<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436445" symbol="WatchFace"/>
-<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436528" symbol="WatchFace"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="48" parent="globals/WatchFaceCustomView" pc="268435801" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="49" parent="globals/WatchFaceCustomView" pc="268435825" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="50" parent="globals/WatchFaceCustomView" pc="268435857" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="53" parent="globals/WatchFaceCustomView" pc="268435869" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="54" parent="globals/WatchFaceCustomView" pc="268435876" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="55" parent="globals/WatchFaceCustomView" pc="268435890" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="56" parent="globals/WatchFaceCustomView" pc="268435915" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="57" parent="globals/WatchFaceCustomView" pc="268435939" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="9" lineNum="58" parent="globals/WatchFaceCustomView" pc="268435971" symbol="onShow"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="10" lineNum="15" parent="globals/WatchFaceCustomView" pc="268435984" symbol="onLayout"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="10" lineNum="16" parent="globals/WatchFaceCustomView" pc="268435986" symbol="onLayout"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="12" lineNum="10" parent="globals/WatchFaceCustomView" pc="268436020" symbol="initialize"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="12" lineNum="11" parent="globals/WatchFaceCustomView" pc="268436022" symbol="initialize"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="62" parent="globals/WatchFaceCustomView" pc="268436035" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="64" parent="globals/WatchFaceCustomView" pc="268436038" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="65" parent="globals/WatchFaceCustomView" pc="268436045" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="66" parent="globals/WatchFaceCustomView" pc="268436057" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="67" parent="globals/WatchFaceCustomView" pc="268436065" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="68" parent="globals/WatchFaceCustomView" pc="268436084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="69" parent="globals/WatchFaceCustomView" pc="268436092" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="72" parent="globals/WatchFaceCustomView" pc="268436105" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="73" parent="globals/WatchFaceCustomView" pc="268436130" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="74" parent="globals/WatchFaceCustomView" pc="268436137" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="77" parent="globals/WatchFaceCustomView" pc="268436156" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="80" parent="globals/WatchFaceCustomView" pc="268436212" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="81" parent="globals/WatchFaceCustomView" pc="268436236" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="82" parent="globals/WatchFaceCustomView" pc="268436268" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomView.mc" id="14" lineNum="85" parent="globals/WatchFaceCustomView" pc="268436280" symbol="onUpdate"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="15" lineNum="12" parent="globals/WatchFaceCustomApp" pc="268436301" symbol="onStart"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="16" lineNum="25" parent="globals/WatchFaceCustomApp" pc="268436304" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="16" lineNum="26" parent="globals/WatchFaceCustomApp" pc="268436306" symbol="onSettingsChanged"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="17" lineNum="20" parent="globals/WatchFaceCustomApp" pc="268436318" symbol="getInitialView"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="17" lineNum="21" parent="globals/WatchFaceCustomApp" pc="268436320" symbol="getInitialView"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="18" lineNum="7" parent="globals/WatchFaceCustomApp" pc="268436350" symbol="initialize"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="18" lineNum="8" parent="globals/WatchFaceCustomApp" pc="268436352" symbol="initialize"/>
+<entry filename="C:\\Users\\localadmin\\Documents\\WatchFaceCustom\\source\\WatchFaceCustomApp.mc" id="19" lineNum="16" parent="globals/WatchFaceCustomApp" pc="268436365" symbol="onStop"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268436368" symbol="WatchFace"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436379" symbol="WatchFace"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436403" symbol="WatchFace"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436488" symbol="WatchFace"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436571" symbol="WatchFace"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436654" symbol="WatchFace"/>
+<entry filename="c:\\Users\\localadmin\\Documents\\WatchFaceCustom\\bin\\gen\\006-B3703-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268436739" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -121,27 +129,33 @@
 <localVars>
 <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
 <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435575"/>
-<entry endPc="268435856" name="rainFormat" stackId="1" startPc="268435620"/>
-<entry endPc="268435856" name="weatherdata" stackId="2" startPc="268435620"/>
-<entry endPc="268435856" name="rainfallChance" stackId="3" startPc="268435620"/>
-<entry endPc="268435856" name="rainString" stackId="4" startPc="268435620"/>
-<entry endPc="268435856" name="temperatureFormat" stackId="5" startPc="268435620"/>
-<entry endPc="268435856" name="currentTemperature" stackId="6" startPc="268435620"/>
-<entry endPc="268435856" name="temperatureString" stackId="7" startPc="268435620"/>
-<entry endPc="268435856" name="riskOfRain" stackId="8" startPc="268435620"/>
-<entry endPc="268435856" name="temperatureText" stackId="9" startPc="268435620"/>
-<entry arg="true" endPc="268435893" name="dc" stackId="1" startPc="268435858"/>
-<entry arg="true" endPc="268436174" name="dc" stackId="1" startPc="268435909"/>
-<entry endPc="268436173" name="timeFormat" stackId="2" startPc="268435912"/>
-<entry endPc="268436173" name="clockTime" stackId="3" startPc="268435912"/>
-<entry endPc="268436173" name="hours" stackId="4" startPc="268435912"/>
-<entry endPc="268436173" name="timeString" stackId="5" startPc="268435912"/>
-<entry endPc="268436173" name="view" stackId="6" startPc="268435912"/>
-<entry arg="true" endPc="268436552" name="dc" stackId="1" startPc="268436242"/>
-<entry endPc="268436552" name="rez_cmp_local_custom_drawable_63441125696018296416" stackId="2" startPc="268436253"/>
-<entry endPc="268436552" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436253"/>
-<entry endPc="268436552" name="rez_cmp_local_text_RainChance" stackId="4" startPc="268436253"/>
-<entry endPc="268436552" name="rez_cmp_local_text_CurrentTemps" stackId="5" startPc="268436253"/>
+<entry endPc="268435982" name="rainFormat" stackId="1" startPc="268435620"/>
+<entry endPc="268435982" name="weatherdata" stackId="2" startPc="268435620"/>
+<entry endPc="268435982" name="rainfallChance" stackId="3" startPc="268435620"/>
+<entry endPc="268435982" name="rainString" stackId="4" startPc="268435620"/>
+<entry endPc="268435982" name="temperatureFormat" stackId="5" startPc="268435620"/>
+<entry endPc="268435982" name="currentTemperature" stackId="6" startPc="268435620"/>
+<entry endPc="268435982" name="temperatureString" stackId="7" startPc="268435620"/>
+<entry endPc="268435982" name="sysStats" stackId="8" startPc="268435620"/>
+<entry endPc="268435982" name="riskOfRain" stackId="9" startPc="268435620"/>
+<entry endPc="268435982" name="temperatureText" stackId="10" startPc="268435620"/>
+<entry endPc="268435982" name="batChargeFormat" stackId="11" startPc="268435620"/>
+<entry endPc="268435982" name="batChargeNum" stackId="12" startPc="268435620"/>
+<entry endPc="268435982" name="batChargeText" stackId="13" startPc="268435620"/>
+<entry endPc="268435982" name="batCharge" stackId="14" startPc="268435620"/>
+<entry arg="true" endPc="268436019" name="dc" stackId="1" startPc="268435984"/>
+<entry arg="true" endPc="268436300" name="dc" stackId="1" startPc="268436035"/>
+<entry endPc="268436299" name="timeFormat" stackId="2" startPc="268436038"/>
+<entry endPc="268436299" name="clockTime" stackId="3" startPc="268436038"/>
+<entry endPc="268436299" name="hours" stackId="4" startPc="268436038"/>
+<entry endPc="268436299" name="timeString" stackId="5" startPc="268436038"/>
+<entry endPc="268436299" name="view" stackId="6" startPc="268436038"/>
+<entry arg="true" endPc="268436768" name="dc" stackId="1" startPc="268436368"/>
+<entry endPc="268436768" name="rez_cmp_local_custom_drawable_16349765931953391908" stackId="2" startPc="268436379"/>
+<entry endPc="268436768" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436379"/>
+<entry endPc="268436768" name="rez_cmp_local_text_RainChance" stackId="4" startPc="268436379"/>
+<entry endPc="268436768" name="rez_cmp_local_text_CurrentTemps" stackId="5" startPc="268436379"/>
+<entry endPc="268436768" name="rez_cmp_local_text_BatCharge" stackId="6" startPc="268436379"/>
 </localVars>
 <deviceInfo deviceVersion="d768f42b362bd6ce30dcbbc223d308fbb5a79106" partNumber="006-B3703-00"/>
 <annotations>
@@ -194,23 +208,23 @@
 <functionEntry accessMode="public" name="onExitSleep" parent="WatchFaceCustomView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435857" name="onShow" parent="WatchFaceCustomView" startPc="268435617">
+<functionEntry accessMode="public" endPc="268435983" name="onShow" parent="WatchFaceCustomView" startPc="268435617">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435893" name="onLayout" parent="WatchFaceCustomView" startPc="268435858">
+<functionEntry accessMode="public" endPc="268436019" name="onLayout" parent="WatchFaceCustomView" startPc="268435984">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="WatchFaceCustomView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435908" name="initialize" parent="WatchFaceCustomView" startPc="268435894">
+<functionEntry accessMode="public" endPc="268436034" name="initialize" parent="WatchFaceCustomView" startPc="268436020">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="WatchFaceCustomView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436174" name="onUpdate" parent="WatchFaceCustomView" startPc="268435909">
+<functionEntry accessMode="public" endPc="268436300" name="onUpdate" parent="WatchFaceCustomView" startPc="268436035">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -223,24 +237,24 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436177" name="onStart" parent="WatchFaceCustomApp" startPc="268436175">
+<functionEntry accessMode="public" endPc="268436303" name="onStart" parent="WatchFaceCustomApp" startPc="268436301">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436191" name="onSettingsChanged" parent="WatchFaceCustomApp" startPc="268436178">
+<functionEntry accessMode="public" endPc="268436317" name="onSettingsChanged" parent="WatchFaceCustomApp" startPc="268436304">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436223" name="getInitialView" parent="WatchFaceCustomApp" startPc="268436192">
+<functionEntry accessMode="public" endPc="268436349" name="getInitialView" parent="WatchFaceCustomApp" startPc="268436318">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436238" name="initialize" parent="WatchFaceCustomApp" startPc="268436224">
+<functionEntry accessMode="public" endPc="268436364" name="initialize" parent="WatchFaceCustomApp" startPc="268436350">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436241" name="onStop" parent="WatchFaceCustomApp" startPc="268436239">
+<functionEntry accessMode="public" endPc="268436367" name="onStop" parent="WatchFaceCustomApp" startPc="268436365">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436552" name="WatchFace" parent="Layouts" startPc="268436242">
+<functionEntry accessMode="public" endPc="268436768" name="WatchFace" parent="Layouts" startPc="268436368">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
