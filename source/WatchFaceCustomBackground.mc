@@ -19,4 +19,8 @@ class Background extends WatchUi.Drawable {
         dc.clear();
     }
 
+    function shite() as Void{
+
+    }
+
 }

@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.Weather;
 
 class WatchFaceCustomView extends WatchUi.WatchFace {
 
@@ -19,6 +20,42 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
+        
+        // get Rain chance from WeatherData
+        var rainFormat = "$1$ R%";
+        var weatherdata = Weather.getCurrentConditions();
+        var rainfallChance = weatherdata.precipitationChance;
+        var rainString = Lang.format(rainFormat, [rainfallChance]);
+
+        //get Temperature by reusing WeatherData
+        var temperatureFormat = "$1$°C";
+        var currentTemperature = weatherdata.temperature;
+        currentTemperature = currentTemperature.toNumber();
+        var temperatureString = Lang.format(temperatureFormat, [currentTemperature]);
+
+        //get System Stats
+        var sysStats = System.getSystemStats();
+
+
+
+
+        //Draw RainChance
+        var riskOfRain = View.findDrawableById("RainChance") as Text;
+        riskOfRain.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        riskOfRain.setText(rainString);
+
+        //Draw Temperature
+        var temperatureText = View.findDrawableById("CurrentTemps") as Text;
+        temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        temperatureText.setText(temperatureString);
+
+        //Draw BatteryCharge
+        var batChargeFormat = "$1$%";
+        var batChargeNum = sysStats.battery.toNumber();
+        var batChargeText = Lang.format(batChargeFormat, [batChargeNum]);
+        var batCharge =  View.findDrawableById("BatCharge") as Text;
+        batCharge.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        batCharge.setText(batChargeText);
     }
 
     // Update the view
@@ -37,7 +74,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
                 hours = hours.format("%02d");
             }
         }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d"), clockTime.sec.format("%03d")]);
+        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d"), clockTime.sec]);
 
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
