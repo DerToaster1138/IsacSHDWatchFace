@@ -14,13 +14,11 @@ class Background extends WatchUi.Drawable {
     }
 
     function draw(dc as Dc) as Void {
-        // Set the background color then call to clear the screen
-        dc.setColor(Graphics.COLOR_TRANSPARENT, getApp().getProperty("BackgroundColor") as Number);
-        dc.clear();
-    }
-
-    function shite() as Void{
-
+        // set the Background color to Black, disabled because worthles
+        //dc.setColor(Graphics.COLOR_TRANSPARENT, getApp().getProperty("BackgroundColor") as Number);
+        dc.drawBitmap(0, 0, loadResource(Rez.Drawables.BackgroundPng));
+        // clears the entire screen, so deletes all, disabled be cause the background must be visible
+        //dc.clear();
     }
 
 }
