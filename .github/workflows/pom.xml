@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.garmin.connectiq</groupId>
+  <artifactId>ciq-companion-app-sdk</artifactId>
+  <version>2.0.3</version>
+  <packaging>pom</packaging>
+  <name>ConnectIQ Companion App SDK</name>
+  <description>The Mobile SDK for Android allows you to create companion applications that run on users’ phones and interact with your application on their wearable devices.</description>
+  <url>https://developer.garmin.com/connect-iq/core-topics/mobile-sdk-for-android/</url>
+  <organization>
+    <name>com.garmin.connectiq</name>
+    <url>https://developer.garmin.com/connect-iq/overview/</url>
+  </organization>
+  <issueManagement>
+    <system>Web form</system>
+    <url>https://www.garmin.com/en-US/forms/developercontactus/</url>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>Garmin CONNECT IQ SDK License Agreement and CONNECT IQ Application Developer Agreement</name>
+      <url>https://developer.garmin.com/connect-iq/sdk/</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/garmin/connectiq-android-sdk</url>
+    <connection>scm:git:git://github.com/garmin/connectiq-android-sdk.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:garmin/connectiq-android-sdk.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <name>Garmin Mobile Developer</name>
+    </developer>
+  </developers>
+</project>
