@@ -27,6 +27,8 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Set Repo Path
+      run: mvn -Dmaven.repo.local=/my/local/repository/path clean install
     - name: Build with Maven
       run: mvn dependency:copy-dependencies --file pom.xml -X
     - name: Directories
