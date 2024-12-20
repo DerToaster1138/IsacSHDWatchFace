@@ -29,7 +29,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn dependency:copy-dependencies --file pom.xml -X
-      
+    - name: Directories
+      run: dir "/home/runner/.m2"
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.5.0
       with:
@@ -38,6 +39,6 @@ jobs:
         path: "*/*"
 
     - name: Monkey
-      run: monkeybrains.jar
+      run: java -Xms1g -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true -jar c:\Users\localadmin\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-7.3.1-2024-09-23-df7b5816a\bin\monkeybrains.jar -o bin\IsacSHDWatchFace.prg -f c:\Users\localadmin\Documents\GarminWatchFace\IsacSHDWatchFace\monkey.jungle -y c:\Users\localadmin\Documents\GamrinDevKey\developer_key -d venu2_sim -w
 
           
