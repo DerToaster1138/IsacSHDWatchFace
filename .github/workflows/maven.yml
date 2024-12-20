@@ -39,6 +39,6 @@ jobs:
         path: "*/*"
 
     - name: Monkey
-      run: java -Xms1g -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true -jar c:\Users\localadmin\AppData\Roaming\Garmin\ConnectIQ\Sdks\connectiq-sdk-win-7.3.1-2024-09-23-df7b5816a\bin\monkeybrains.jar -o bin\IsacSHDWatchFace.prg -f c:\Users\localadmin\Documents\GarminWatchFace\IsacSHDWatchFace\monkey.jungle -y c:\Users\localadmin\Documents\GamrinDevKey\developer_key -d venu2_sim -w
+      run: java -Xms1g -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true -jar */connectiq-sdk-win-7.3.1-2024-09-23-df7b5816a\bin\monkeybrains.jar -o bin\IsacSHDWatchFace.prg -f c:\Users\localadmin\Documents\GarminWatchFace\IsacSHDWatchFace\monkey.jungle -y c:\Users\localadmin\Documents\GamrinDevKey\developer_key -d venu2_sim -w
 
           
