@@ -32,13 +32,13 @@ jobs:
     - name: Build with Maven
       run: mvn dependency:copy-dependencies --file pom.xml -X
     - name: Directories
-      run: dir "/home/runner/work/IsacSHDWatchFace/IsacSHDWatchFace/p/com/garmin/connectiq/ciq-companion-app-sdk/bin/"
+      run: dir "/home/runner/work/IsacSHDWatchFace/IsacSHDWatchFace/p/com/garmin/connectiq/ciq-companion-app-sdk/"
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.5.0
       with:
         name: artifact
     # A file, directory or wildcard pattern that describes what to upload
-        path: "*/*"
+        path: "/home/runner/work/*"
 
     - name: Monkey
       run: java -Xms1g -Dfile.encoding=UTF-8 -Dapple.awt.UIElement=true -jar ./p/com/garmin/connectiq/ciq-companion-app-sdk/2.0.3/ciq-companion-app-sdk-2.0.3/bin/monkeybrains.jar -o bin\IsacSHDWatchFace.prg -f monkey.jungle -d venu2_sim -w
