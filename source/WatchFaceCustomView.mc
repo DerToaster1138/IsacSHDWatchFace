@@ -4,6 +4,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Weather;
+import Toybox.Time;
 
 class WatchFaceCustomView extends WatchUi.WatchFace {
 
@@ -36,8 +37,17 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         //get System Stats
         var sysStats = System.getSystemStats();
 
-
-
+        //get Date Information
+        var dateformat = "$1$/$2$/$3$";
+        var today = new Time.Moment(Time.today().value());
+        var details = Gregorian.utcInfo(today, Time.FORMAT_MEDIUM);
+        var day = details.day as Number;
+        var month = details.month as Text;
+        var year = details.year as Number;
+        var datestring = Lang.format(dateformat, [day, month, year]);
+        var date = View.findDrawableById("DateTime") as Text;
+        date.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        date.setText(datestring);
 
         //Draw RainChance
         var riskOfRain = View.findDrawableById("RainChance") as Text;
