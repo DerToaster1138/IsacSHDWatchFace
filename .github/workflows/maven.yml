@@ -65,13 +65,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Decrypt developer key
-        # see https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#storing-large-secrets
-        run: ./.github/scripts/decrypt_secret.sh
-        env:
-          INPUT: ./developer_key.gpg
-          OUTPUT: ./developer_key
-          PASSPHRASE: ${{ secrets.DEVELOPER_KEY_PASSPHRASE }}
+      # - name: Decrypt developer key
+      #   # see https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#storing-large-secrets
+      #   run: ./.github/scripts/decrypt_secret.sh
+      #   env:
+      #     INPUT: ./developer_key.gpg
+      #     OUTPUT: ./developer_key
+      #     PASSPHRASE: ${{ secrets.DEVELOPER_KEY_PASSPHRASE }}
       - name: Create release
         uses: blackshadev/garmin-connectiq-release-action@1.0.1
         with:
