@@ -8,7 +8,10 @@ import Toybox.Time;
 
 class WatchFaceCustomView extends WatchUi.WatchFace {
 
-    var dateformat = "$1$/$2$/$3$";
+    var weatherdata = Weather.getCurrentConditions();
+    var currentTemperature = weatherdata.temperature;
+    var sysStats = System.getSystemStats();
+    var batChargeNum = sysStats.battery.toNumber();
 
     function initialize() {
         WatchFace.initialize();
@@ -26,17 +29,8 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     function onShow() as Void {
         
         // get Rain chance from WeatherData
-        var weatherdata = Weather.getCurrentConditions();
         var rainfallChance = weatherdata.precipitationChance;
         var rainString = Lang.format(WatchUi.loadResource(Rez.Strings.rainFormat), [rainfallChance]);
-
-        //get Temperature by reusing WeatherData
-        var currentTemperature = weatherdata.temperature;
-        currentTemperature = currentTemperature.toNumber();
-        var temperatureString = Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureFormat), [currentTemperature]);
-
-        //get System Stats
-        var sysStats = System.getSystemStats();
 
         //get Date Information
         var today = new Time.Moment(Time.today().value());
@@ -54,21 +48,13 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         riskOfRain.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         riskOfRain.setText(rainString);
 
-        //Draw Temperature
-        var temperatureText = View.findDrawableById("CurrentTemps") as Text;
-        temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-        temperatureText.setText(temperatureString);
-
-        //Draw BatteryCharge
-        var batChargeNum = sysStats.battery.toNumber();
-        var batChargeText = Lang.format(WatchUi.loadResource(Rez.Strings.batChargeFormat), [batChargeNum]);
-        var batCharge =  View.findDrawableById("BatCharge") as Text;
-        batCharge.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-        batCharge.setText(batChargeText);
     }
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+        weatherdata = Weather.getCurrentConditions();
+        sysStats = System.getSystemStats();
+        batChargeNum = sysStats.battery.toNumber();
         // Get the current time and format it correctly
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
@@ -87,6 +73,20 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         view.setText(timeString);
+
+        // Draw Battery
+        var batChargeText = Lang.format(WatchUi.loadResource(Rez.Strings.batChargeFormat), [batChargeNum]);
+        var batCharge =  View.findDrawableById("BatCharge") as Text;
+        batCharge.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        batCharge.setText(batChargeText);
+
+        //get Temperature by reusing WeatherData
+        currentTemperature = weatherdata.temperature;
+        currentTemperature = currentTemperature.toNumber();
+        var temperatureString = Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureFormat), [currentTemperature]);
+        var temperatureText = View.findDrawableById("CurrentTemps") as Text;
+        temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        temperatureText.setText(temperatureString);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
