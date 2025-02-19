@@ -35,7 +35,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         //get Date Information
         var today = new Time.Moment(Time.today().value());
         var details = Gregorian.utcInfo(today, Time.FORMAT_MEDIUM);
-        var day = details.day as Number;
+        var day = details.day as Number + 1;
         var month = details.month as Text;
         var year = details.year as Number;
         var datestring = Lang.format(WatchUi.loadResource(Rez.Strings.DateFormat), [day, month, year]);
