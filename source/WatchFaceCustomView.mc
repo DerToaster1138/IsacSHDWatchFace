@@ -8,6 +8,8 @@ import Toybox.Time;
 
 class WatchFaceCustomView extends WatchUi.WatchFace {
 
+    var dateformat = "$1$/$2$/$3$";
+
     function initialize() {
         WatchFace.initialize();
     }
@@ -15,6 +17,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
+        
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -23,28 +26,25 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     function onShow() as Void {
         
         // get Rain chance from WeatherData
-        var rainFormat = "$1$ R%";
         var weatherdata = Weather.getCurrentConditions();
         var rainfallChance = weatherdata.precipitationChance;
-        var rainString = Lang.format(rainFormat, [rainfallChance]);
+        var rainString = Lang.format(WatchUi.loadResource(Rez.Strings.rainFormat), [rainfallChance]);
 
         //get Temperature by reusing WeatherData
-        var temperatureFormat = "$1$°C";
         var currentTemperature = weatherdata.temperature;
         currentTemperature = currentTemperature.toNumber();
-        var temperatureString = Lang.format(temperatureFormat, [currentTemperature]);
+        var temperatureString = Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureFormat), [currentTemperature]);
 
         //get System Stats
         var sysStats = System.getSystemStats();
 
         //get Date Information
-        var dateformat = "$1$/$2$/$3$";
         var today = new Time.Moment(Time.today().value());
         var details = Gregorian.utcInfo(today, Time.FORMAT_MEDIUM);
         var day = details.day as Number;
         var month = details.month as Text;
         var year = details.year as Number;
-        var datestring = Lang.format(dateformat, [day, month, year]);
+        var datestring = Lang.format(WatchUi.loadResource(Rez.Strings.DateFormat), [day, month, year]);
         var date = View.findDrawableById("DateTime") as Text;
         date.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         date.setText(datestring);
@@ -60,9 +60,8 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         temperatureText.setText(temperatureString);
 
         //Draw BatteryCharge
-        var batChargeFormat = "$1$%";
         var batChargeNum = sysStats.battery.toNumber();
-        var batChargeText = Lang.format(batChargeFormat, [batChargeNum]);
+        var batChargeText = Lang.format(WatchUi.loadResource(Rez.Strings.batChargeFormat), [batChargeNum]);
         var batCharge =  View.findDrawableById("BatCharge") as Text;
         batCharge.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         batCharge.setText(batChargeText);
@@ -71,7 +70,6 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$:$3$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
         if (!System.getDeviceSettings().is24Hour) {
@@ -80,11 +78,10 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
             }
         } else {
             if (Application.Properties.getValue("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$$3$";
                 hours = hours.format("%02d");
             }
         }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d"), clockTime.sec]);
+        var timeString = Lang.format(WatchUi.loadResource(Rez.Strings.timeFormat), [hours, clockTime.min.format("%02d"), clockTime.sec]);
 
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
@@ -103,6 +100,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
+
     }
 
     // Terminate any active timers and prepare for slow updates.
