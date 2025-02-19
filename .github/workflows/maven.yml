@@ -81,7 +81,7 @@ jobs:
       - name: Upload release artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Venu2-${{ github.ref_name }}
-          path: out/app.iq
+          name: Venu2-${{ github.repos.repository }}
+          path: out/ISAC.iq
 
           
