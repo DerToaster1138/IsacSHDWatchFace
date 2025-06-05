@@ -70,16 +70,22 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         // Get the current time and format it correctly
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+        var seconds = clockTime.sec;
         if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
-            }
-        } else {
-            if (Application.Properties.getValue("UseMilitaryFormat")) {
-                hours = hours.format("%02d");
+
             }
         }
-        var timeString = Lang.format(WatchUi.loadResource(Rez.Strings.timeFormat), [hours, clockTime.min.format("%02d"), clockTime.sec]);
+        else{    
+            if (hours < 10) {
+                hours = "0" + hours;
+            }
+            if(seconds < 10) {
+                seconds = "0" + seconds;
+            }
+        }
+        var timeString = Lang.format(WatchUi.loadResource(Rez.Strings.timeFormat), [hours, clockTime.min.format("%02d"), seconds]);
 
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
