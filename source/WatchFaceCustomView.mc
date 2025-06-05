@@ -20,7 +20,6 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.WatchFace(dc));
-        
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -33,9 +32,9 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         var rainString = Lang.format(WatchUi.loadResource(Rez.Strings.rainFormat), [rainfallChance]);
 
         //get Date Information
-        var today = new Time.Moment(Time.today().value());
-        var details = Gregorian.utcInfo(today, Time.FORMAT_MEDIUM);
-        var day = details.day as Number + 1;
+        var today = new Time.Moment(Time.now().value());
+        var details = Gregorian.info(today, Time.FORMAT_MEDIUM);
+        var day = details.day as Number;
         var month = details.month as Text;
         var year = details.year as Number;
         var datestring = Lang.format(WatchUi.loadResource(Rez.Strings.DateFormat), [day, month, year]);
@@ -52,6 +51,19 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+
+        //get Date Information
+        var today = new Time.Moment(Time.now().value());
+        var details = Gregorian.info(today, Time.FORMAT_MEDIUM);
+        var day = details.day as Number;
+        var month = details.month as Text;
+        var year = details.year as Number;
+        var datestring = Lang.format(WatchUi.loadResource(Rez.Strings.DateFormat), [day, month, year]);
+        var date = View.findDrawableById("DateTime") as Text;
+        date.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        date.setText(datestring);
+
+        // Get the current weather data and system stats
         weatherdata = Weather.getCurrentConditions();
         sysStats = System.getSystemStats();
         batChargeNum = sysStats.battery.toNumber();
@@ -98,9 +110,10 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     function onHide() as Void {
     }
 
+
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
-
+        requestUpdate();
     }
 
     // Terminate any active timers and prepare for slow updates.
