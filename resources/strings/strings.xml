@@ -5,7 +5,8 @@
     ///Misc
     <string id="BackgroundColorTitle">Background Color</string>
     <string id="ForegroundColorTitle">Foreground Color</string>
-    <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="MilitaryFormatTitle">Military Time Format</string>
+    
 
     ///Colors
     <string id="ColorBlack">Black</string>
@@ -20,7 +21,7 @@
     <string id="DateFormat">$1$/$2$/$3$</string>
     <string id="TemperatureFormat">$1$°C</string>
     <string id="batChargeFormat">$1$%</string>
-    <string id="timeFormat">$1$:$2$:$03$</string>
+    <string id="timeFormat">$1$:$2$:$3$</string>
     <string id="rainFormat">$1$ R%</string>
 
 </strings>
