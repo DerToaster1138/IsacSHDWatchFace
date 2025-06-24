@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.garmin.connectiq</groupId>
   <artifactId>ciq-companion-app-sdk</artifactId>
-  <version>2.0.3</version>
-  <packaging>pom</packaging>
+  <version>2.2.0</version>
+  <packaging>aar</packaging>
   <name>ConnectIQ Companion App SDK</name>
   <description>The Mobile SDK for Android allows you to create companion applications that run on users’ phones and interact with your application on their wearable devices.</description>
   <url>https://developer.garmin.com/connect-iq/core-topics/mobile-sdk-for-android/</url>
