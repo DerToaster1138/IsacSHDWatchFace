@@ -3,9 +3,15 @@
 # Monkey Motion Manifest file
 # Video file: C:\Users\jadre\Videos\ISACBG.gif
 # Output File Path: C:\Users\jadre\Videos
-# Animation resource id: animations
+# Animation resource id: isacbg
 # Image Quality: 3
+# Frame Rate: 20
+# Color Depth: 6
+# Image Scaling Quality: 3
 
+# 390x390 part number mappings
+006-B3737-00=ISACBG_390x390_16_RGB565.mm
+006-B3740-00=ISACBG_390x390_16_RGB565.mm
 # 416x416 part number mappings
 006-B3703-00=ISACBG_416x416_16_RGB565.mm
 006-B3950-00=ISACBG_416x416_16_RGB565.mm

@@ -25,7 +25,13 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         sysStats = System.getSystemStats();
         batChargeNum = sysStats.battery.toNumber();
 
-        _backgroundAnimationLayer = new AnimationLayer($.Rez.Drawables.isacbg, null);
+        _backgroundAnimationLayer = new AnimationLayer($.Rez.Drawables.isacbg, 
+        {
+            :locX => 0,
+            :locY => 0,
+            :width => 416,
+            :height => 416,
+        });
         _drawLayer = new WatchUi.Layer({
             :locX=> 0,
             :locY=> 0,
@@ -164,10 +170,12 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
         requestUpdate();
+        _backgroundAnimationLayer.play(null); // Restart animation when exiting sleep
     }
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() as Void {
+        _backgroundAnimationLayer.stop(); // Stop animation when entering sleep
     }
 
 }
