@@ -38,5 +38,3 @@ jobs:
         with:
           name: Venu2-${{ vars.APP_NAME }}-${{ github.runid }}
           path: out/app.iq
-
-          
