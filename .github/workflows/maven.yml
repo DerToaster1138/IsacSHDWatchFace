@@ -21,10 +21,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Build ConnectIQ Release using 8.1.1
+      - name: Build ConnectIQ Release using 8.2.1
   # You may pin to the exact commit or the version.
   # uses: blackshadev/garmin-connectiq-release-action@adc9fc3fa083615a8e62d476fc58f1efbb80d3b7
-        uses: blackshadev/garmin-connectiq-release-action@8.1.1
+        uses: blackshadev/garmin-connectiq-release-action@8.2.1
         with:
     # Developer key to sign the export with. Please do not push this to your repo unencrypted
           developerKey: ./developer_key
