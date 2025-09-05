@@ -15,6 +15,7 @@
         -->
         <iq:products>
             <iq:product id="venu2"/>
+            <iq:product id="venu2plus"/>
             <iq:product id="venu3"/>
         </iq:products>
         <!--
