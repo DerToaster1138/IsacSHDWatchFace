@@ -13,6 +13,7 @@ on:
     branches: [ "main"]
     paths:
       - 'source/**'
+      - 'ressources*/**'
   pull_request:
     branches: [ "main" ]
 
