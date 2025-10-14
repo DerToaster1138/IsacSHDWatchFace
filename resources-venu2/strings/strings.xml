@@ -23,5 +23,8 @@
     <string id="batChargeFormat">$1$%</string>
     <string id="timeFormat">$1$:$2$:$3$</string>
     <string id="rainFormat">$1$ R%</string>
+    <string id="stepFormat">$1$Stp</string>
+    <string id="stressFormat">$1$Str</string>
+    <string id="hrFormat">$1$BPM</string>
 
 </strings>

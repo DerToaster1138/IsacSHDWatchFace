@@ -12,6 +12,8 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     var currentTemperature;
     var sysStats;
     var batChargeNum;
+    var activityInformation;
+    //var sensorInfo;
 
     var _backgroundAnimationLayer as AnimationLayer;
     private var _drawLayer as Layer;
@@ -24,6 +26,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         currentTemperature = weatherdata.temperature;
         sysStats = System.getSystemStats();
         batChargeNum = sysStats.battery.toNumber();
+        activityInformation = ActivityMonitor.getInfo();
 
         _backgroundAnimationLayer = new AnimationLayer($.Rez.Drawables.isacbg, 
         {
@@ -82,11 +85,25 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         // If the drawLayerDc is not null, update
         if (dc != null) 
         {
+            activityInformation = ActivityMonitor.getInfo();
+            //sensorInfo = Sensor.getInfo();
             // Update the time
             var timeString = updateTime(_isFullUpdate);
             var time = View.findDrawableById("TimeLabel") as Text;
             time.setColor(Application.Properties.getValue("ForegroundColor") as Number);
             time.setText(timeString);
+
+            // Update Step Counter
+            var stepString = getSteps();
+            var stepsTaken = View.findDrawableById("Steps") as Text;
+            stepsTaken.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+            stepsTaken.setText(stepString);
+
+            // Update HeartRate
+            var hr = getHeartRate();
+            var hrNow = View.findDrawableById("Heartrate") as Text;
+            hrNow.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+            hrNow.setText(hr);
 
             if (_isFullUpdate) 
             {
@@ -94,6 +111,12 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
                 weatherdata = Weather.getCurrentConditions();
                 sysStats = System.getSystemStats();
                 batChargeNum = sysStats.battery.toNumber();
+
+                // Get Stress Score
+                var stress = getStressScore();
+                var stressCurrent = View.findDrawableById("Stress") as Text;
+                stressCurrent.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+                stressCurrent.setText(stress);
 
                 // Update the rain chance
                 var rainString = getRainChance();
@@ -166,6 +189,29 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         var rainString = Lang.format(WatchUi.loadResource(Rez.Strings.rainFormat), [rainfallChance]);
         return rainString;
     }
+
+    function getSteps() as Lang.String
+    {
+        var steps = activityInformation.steps;
+        var stepString = Lang.format(WatchUi.loadResource(Rez.Strings.stepFormat),[steps]);
+        return stepString;
+    }
+
+    function getHeartRate() as Lang.String
+    {
+        var hr = ActivityMonitor.getHeartRateHistory(null,true);
+        var sample = hr.next();
+        var hrString = Lang.format(WatchUi.loadResource(Rez.Strings.hrFormat), [sample.heartRate]);
+        return hrString;
+    }
+
+    function getStressScore() as Lang.String
+    {
+        var stress = activityInformation.stressScore;
+        var stressString = Lang.format(WatchUi.loadResource(Rez.Strings.stressFormat),[stress]);
+        return stressString;   
+    }
+
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
