@@ -208,8 +208,12 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     function getStressScore() as Lang.String
     {
         var stress = activityInformation.stressScore;
+        if(stress == null)
+        {
+            stress = 0;
+        }
         var stressString = Lang.format(WatchUi.loadResource(Rez.Strings.stressFormat),[stress]);
-        return stressString;   
+        return stressString;
     }
 
 
