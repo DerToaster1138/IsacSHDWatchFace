@@ -20,13 +20,14 @@ Getting the Watchface as a normal Watchface to run is the first Priority of cour
 - Battery in Percentage
 - Percipiation Chance
 - Animated Background
-
-### Features that are included but not yet working
-none as of yet
+- Heart Frequency
+- Steps and Stress Level
 
 ### Features that are still TODO
-- Heart Frequency
 - weather forecast
+- Weather warning
+- BPM Warning
+- Stress Warning
 
 # Information Board
 
@@ -37,3 +38,6 @@ Theres very little features as of yet, however the Battery efficiency is (unders
 
 ### Edit 9/2025
 The Background animation is working now, battery efficiency is now down again, for me its a recharge every 3 days
+
+### Edit 10/2025
+Support for the Venu 2+ and 3 has been added, steps stress and heartrate has been added
