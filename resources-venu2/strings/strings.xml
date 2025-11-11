@@ -25,6 +25,6 @@
     <string id="rainFormat">$1$ R%</string>
     <string id="stepFormat">$1$Stp</string>
     <string id="stressFormat">$1$Str</string>
-    <string id="hrFormat">$1$BPM</string>
+    <string id="hrFormat">$1$HR</string>
 
 </strings>
