@@ -86,7 +86,6 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         if (dc != null) 
         {
             activityInformation = ActivityMonitor.getInfo();
-            //sensorInfo = Sensor.getInfo();
             // Update the time
             var timeString = updateTime(_isFullUpdate);
             var time = View.findDrawableById("TimeLabel") as Text;
