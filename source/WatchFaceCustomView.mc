@@ -13,10 +13,12 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     var sysStats;
     var batChargeNum;
     var activityInformation;
+    var DeviceSettings;
     //var sensorInfo;
 
     var _backgroundAnimationLayer as AnimationLayer;
-    private var _drawLayer as Layer;
+    var _drawLayer as Layer;
+    var _circleLayer as Layer;
     var iterationCount as Number = 0;
     var returncount as Number = 0;
 
@@ -27,19 +29,26 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         sysStats = System.getSystemStats();
         batChargeNum = sysStats.battery.toNumber();
         activityInformation = ActivityMonitor.getInfo();
+        DeviceSettings = System.getDeviceSettings();
 
         _backgroundAnimationLayer = new AnimationLayer($.Rez.Drawables.isacbg, 
         {
             :locX => 0,
             :locY => 0,
-            :width => 416,
-            :height => 416,
+            :width => DeviceSettings.screenWidth,
+            :height => DeviceSettings.screenHeight,
         });
         _drawLayer = new WatchUi.Layer({
             :locX=> 0,
             :locY=> 0,
-            :width=> 416,
-            :height=> 416});
+            :width=> DeviceSettings.screenWidth,
+            :height=> DeviceSettings.screenHeight});
+        
+        _circleLayer = new WatchUi.Layer({
+            :locX=> 0,
+            :locY=> 0,
+            :width=> DeviceSettings.screenWidth,
+            :height=> DeviceSettings.screenHeight});
     }
 
     // Load your resources here
@@ -49,6 +58,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     addLayer(_backgroundAnimationLayer);
     setLayout($.Rez.Layouts.WatchFace(_drawLayer.getDc()));
     insertLayer(_drawLayer,1);
+    insertLayer(_circleLayer,2);
     }
 
     function onShow() as Void {
@@ -59,11 +69,10 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     {
         if(!_backgroundAnimationLayer.play(null))
         {}
-        
     }
     // Update the view
     function onUpdate(dc as Dc) as Void {
-    updateWatchOverlay(true, dc);
+        updateWatchOverlay(true, dc);
     }
 
     function onPartialUpdate(dc as Dc) as Void {
@@ -85,6 +94,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         // If the drawLayerDc is not null, update
         if (dc != null) 
         {
+
             activityInformation = ActivityMonitor.getInfo();
             // Update the time
             var timeString = updateTime(_isFullUpdate);
@@ -147,9 +157,17 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
                 temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
                 temperatureText.setText(temperatureString);
             } 
-
-            _backgroundAnimationLayer.setVisible(true);
+        
             View.drawLayout(dc);
+            _circleLayer.getDc().clear();
+            dc = _circleLayer.getDc();
+            var circleX = (DeviceSettings.screenWidth / 2);
+            System.println(circleX);
+            var circleY = (DeviceSettings.screenHeight / 2);
+            System.println(circleY);
+            dc.setPenWidth(20);
+            dc.drawCircle(circleX, circleY, circleX);
+            _backgroundAnimationLayer.setVisible(true);
             returncount++;
         }
     }

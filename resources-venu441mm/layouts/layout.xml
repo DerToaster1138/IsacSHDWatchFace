@@ -1,11 +1,11 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="TimeLabel" x="200" y="25" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="RainChance" x="45" y="150" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="CurrentTemps" x="30" y="180" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="BatCharge" x="200" y="180" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="DateTime" x="200" y="325" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="Steps" x="355" y="180" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="Stress" x="350" y="210" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="Heartrate" x="350" y="150" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="TimeLabel" x="center" y="30" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="RainChance" x="25" y="150" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
+    <label id="CurrentTemps" x="15" y="center" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
+    <label id="BatCharge" x="center" y="center" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="DateTime" x="center" y="325" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="Steps" x="375" y="center" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
+    <label id="Stress" x="370" y="210" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
+    <label id="Heartrate" x="370" y="150" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
 </layout>

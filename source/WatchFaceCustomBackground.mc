@@ -2,6 +2,7 @@ import Toybox.Application;
 import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
+using Toybox.System;
 
 class Background extends WatchUi.Drawable {
 
@@ -16,7 +17,7 @@ class Background extends WatchUi.Drawable {
     }
 
     function draw(dc as Dc) as Void {
-        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(Application.Properties.getValue("ForegroundColor") as Number, Graphics.COLOR_TRANSPARENT);
         dc.clear();
     }
 
