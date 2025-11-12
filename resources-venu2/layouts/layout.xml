@@ -4,7 +4,7 @@
     <label id="RainChance" x="20" y="155" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
     <label id="CurrentTemps" x="15" y="center" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
     <label id="BatCharge" x="center" y="center" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="DateTime" x="center" y="345" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="DateTime" x="center" y="340" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
     <label id="Steps" x="400" y="center" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
     <label id="Stress" x="390" y="220" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
     <label id="Heartrate" x="390" y="155" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
