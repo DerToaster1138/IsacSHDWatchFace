@@ -14,6 +14,7 @@ The Goal is to Design a Watchface that copys the ISAC Assistant distributed to a
 Severity | Symptom | Fix
 --|--|--
 Medium/Severe | If the watch isnt connected to the Phone the Watchface doesnt render correctly, or just blackscreens/gets stuck in a loading Loop with the animated Background | possibly by nullvalue catching
+Annoying/Low | Updates from the IQ Store take a *very* long time to install | writing better code, idk, i need to condense the structure and some bitmaps possibly but that takes time and experience which im both low on
 
 If you find more please open a new issue in this repository, or write me an email to [this Email](mailto:jadre03.2@gmail.com?subject=Issue%20With%20SHDWatchface)
 
@@ -30,6 +31,7 @@ Getting the Watchface as a normal Watchface to run is the first Priority of cour
 - Heart Frequency
 - Steps and Stress Level
 - Continued Support of newer Models of Watches (especially the Venu Series)
+- Custom Font being added and workng correctly 
 
 ### Features that are still TODO
 - weather forecast
@@ -50,5 +52,9 @@ The Background animation is working now, battery efficiency is now down again, f
 ### Edit 10/2025
 Support for the Venu 2+ and 3 has been added, steps stress and heartrate has been added
 
-### Edit 11/2025
+### Edit 1 11/2025
 Support for Venu 4 in 45 and 41mm Screen Variants, Heartrate moniker changed from BPM to HR
+
+### Edit 2 11/2025
+Since i've gotten a User Feedback Email (yes apparently that does happen), ive included the iconic orange ring around the Edge of the Display, ive also added the Ingame font 'Borda' to the Watchface, and now it looks a lot closer to the original  
+I also Fixed a small issue regarding the size of the drawable Layers and removed some files from Ressource folders that arent necessary (the Venu 3 does not care for the Venu 2+ Animation File...)
