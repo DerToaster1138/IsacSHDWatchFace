@@ -23,6 +23,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     var returncount as Number = 0;
 
     function initialize() {
+
         WatchFace.initialize();
         weatherdata = Weather.getCurrentConditions();
         currentTemperature = weatherdata.temperature;
