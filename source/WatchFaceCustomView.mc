@@ -14,23 +14,24 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     var batChargeNum;
     var activityInformation;
     var DeviceSettings;
-    //var sensorInfo;
 
     var _backgroundAnimationLayer as AnimationLayer;
     var _drawLayer as Layer;
     var _circleLayer as Layer;
-    var iterationCount as Number = 0;
-    var returncount as Number = 0;
-
+    var circleX;
+    var circleY;
+    var _playing = false;
+    
     function initialize() {
 
         WatchFace.initialize();
         weatherdata = Weather.getCurrentConditions();
-        currentTemperature = weatherdata.temperature;
         sysStats = System.getSystemStats();
-        batChargeNum = sysStats.battery.toNumber();
         activityInformation = ActivityMonitor.getInfo();
         DeviceSettings = System.getDeviceSettings();
+
+        circleY = (DeviceSettings.screenHeight / 2);
+        circleX = (DeviceSettings.screenWidth / 2);
 
         _backgroundAnimationLayer = new AnimationLayer($.Rez.Drawables.isacbg, 
         {
@@ -54,36 +55,38 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-    dc.setColor(Application.Properties.getValue("ForegroundColor") as Number, Graphics.COLOR_TRANSPARENT);
-    dc.clear();
-    addLayer(_backgroundAnimationLayer);
-    setLayout($.Rez.Layouts.WatchFace(_drawLayer.getDc()));
-    insertLayer(_drawLayer,1);
-    insertLayer(_circleLayer,2);
+        dc.setColor(Application.Properties.getValue("ForegroundColor") as Number, Graphics.COLOR_TRANSPARENT);
+        dc.clear();
+        addLayer(_backgroundAnimationLayer);
+        setLayout($.Rez.Layouts.WatchFace(_drawLayer.getDc()));
+        insertLayer(_drawLayer,1);
+        insertLayer(_circleLayer,2);
     }
 
     function onShow() as Void {
-    _backgroundAnimationLayer.play(null); // Start animation when shown
+    play(); // Start animation when shown
     }
 
     public function play() as Void
     {
-        if(!_backgroundAnimationLayer.play(null))
-        {}
+        if(!_playing)
+        {
+            _backgroundAnimationLayer.play({
+                :delegate => new AnimationDelegate(self)
+            });
+            _playing = true;
+        }
     }
     // Update the view
     function onUpdate(dc as Dc) as Void {
         updateWatchOverlay(true, dc);
     }
 
-    function onPartialUpdate(dc as Dc) as Void {
-        updateWatchOverlay(false, dc);
-    }
-
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
+        _backgroundAnimationLayer.stop();
     }
 
     // Request an update of the watch face
@@ -135,21 +138,16 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
                 riskOfRain.setText(rainString);
 
                 //get Date Information
-                var today = new Time.Moment(Time.now().value());
-                var details = Gregorian.info(today, Time.FORMAT_MEDIUM);
-                var day = details.day as Number;
-                var month = details.month as Text;
-                var year = details.year as Number;
-                var datestring = Lang.format(WatchUi.loadResource(Rez.Strings.DateFormat), [day, month, year]);
+
                 var date = View.findDrawableById("DateTime") as Text;
                 date.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-                date.setText(datestring);
+                date.setText(getCurrentDate());
 
                 // Draw Battery
-                var batChargeText = Lang.format(WatchUi.loadResource(Rez.Strings.batChargeFormat), [batChargeNum]);
+
                 var batCharge =  View.findDrawableById("BatCharge") as Text;
                 batCharge.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-                batCharge.setText(batChargeText);
+                batCharge.setText(batteryCharge());
 
                 //get Temperature by reusing WeatherData
                 currentTemperature = weatherdata.temperature.toNumber() ;
@@ -162,14 +160,9 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
             View.drawLayout(dc);
             _circleLayer.getDc().clear();
             dc = _circleLayer.getDc();
-            var circleX = (DeviceSettings.screenWidth / 2);
-            System.println(circleX);
-            var circleY = (DeviceSettings.screenHeight / 2);
-            System.println(circleY);
             dc.setPenWidth(20);
             dc.drawCircle(circleX, circleY, circleX);
             _backgroundAnimationLayer.setVisible(true);
-            returncount++;
         }
     }
 
@@ -234,6 +227,29 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         return stressString;
     }
 
+    function getCurrentDate() as Lang.String
+    {
+        var today = new Time.Moment(Time.now().value());
+        var details = Gregorian.info(today, Time.FORMAT_MEDIUM);
+        var day = details.day as Number;
+        var month = details.month as Text;
+        var year = details.year as Number;
+        var datestring = Lang.format(WatchUi.loadResource(Rez.Strings.DateFormat), [day, month, year]);
+        return datestring;
+    }
+
+    function batteryCharge() as Lang.String
+    {
+        var charging = sysStats.charging;
+        batChargeNum = sysStats.battery.toNumber();
+        if(charging)
+        {
+            batChargeNum = "CHRG";
+        }
+        var batChargeText = Lang.format(WatchUi.loadResource(Rez.Strings.batChargeFormat), [batChargeNum]);
+        return batChargeText;
+    }
+
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
@@ -246,4 +262,25 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         _backgroundAnimationLayer.stop(); // Stop animation when entering sleep
     }
 
+}
+
+class AnimationDelegate extends WatchUi.AnimationDelegate {
+
+    var _controller;
+
+    function initialize(controller){
+        AnimationDelegate.initialize();
+        _controller = controller;
+    }
+
+    function onAnimationEvent(event, options){
+        switch(event) {
+            case WatchUi.ANIMATION_EVENT_COMPLETE:
+                _controller._playing = false;
+                _controller.play();
+                break;
+            case WatchUi.ANIMATION_EVENT_CANCELED:
+                break;
+        }
+    }
 }
