@@ -20,6 +20,7 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     var _circleLayer as Layer;
     var circleX;
     var circleY;
+    var _playing = false;
     
     function initialize() {
 
@@ -63,27 +64,29 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
     }
 
     function onShow() as Void {
-    _backgroundAnimationLayer.play(null); // Start animation when shown
+    play(); // Start animation when shown
     }
 
     public function play() as Void
     {
-        if(!_backgroundAnimationLayer.play(null))
-        {}
+        if(!_playing)
+        {
+            _backgroundAnimationLayer.play({
+                :delegate => new AnimationDelegate(self)
+            });
+            _playing = true;
+        }
     }
     // Update the view
     function onUpdate(dc as Dc) as Void {
         updateWatchOverlay(true, dc);
     }
 
-    function onPartialUpdate(dc as Dc) as Void {
-        updateWatchOverlay(false, dc);
-    }
-
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
     // memory.
     function onHide() as Void {
+        _backgroundAnimationLayer.stop();
     }
 
     // Request an update of the watch face
@@ -259,4 +262,25 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
         _backgroundAnimationLayer.stop(); // Stop animation when entering sleep
     }
 
+}
+
+class AnimationDelegate extends WatchUi.AnimationDelegate {
+
+    var _controller;
+
+    function initialize(controller){
+        AnimationDelegate.initialize();
+        _controller = controller;
+    }
+
+    function onAnimationEvent(event, options){
+        switch(event) {
+            case WatchUi.ANIMATION_EVENT_COMPLETE:
+                _controller._playing = false;
+                _controller.play();
+                break;
+            case WatchUi.ANIMATION_EVENT_CANCELED:
+                break;
+        }
+    }
 }
