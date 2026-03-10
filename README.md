@@ -13,8 +13,7 @@ The Goal is to Design a Watchface that copys the ISAC Assistant distributed to a
 # 🛠️ Known Issues and Bugs
 Severity | Symptom | Fix
 --|--|--
-Medium/Severe | If the watch isnt connected to the Phone the Watchface doesnt render correctly, or just blackscreens/gets stuck in a loading Loop with the animated Background | possibly by nullvalue catching
-Annoying/Low | Updates from the IQ Store take a *very* long time to install | writing better code, idk, i need to condense the structure and some bitmaps possibly but that takes time and experience which im both low on
+Annoying/Low | Updates from the IQ Store take a *very* long time to install | writing better code, idk, i need to condense the structure and some bitmaps possibly but that takes time and experience which im both low on. UPDATE ON THAT ONE: Its on garmins side, cant do anything about it
 
 If you find more please open a new issue in this repository, or write me an email to [this Email](mailto:jadre03.2@gmail.com?subject=Issue%20With%20SHDWatchface)
 
@@ -58,3 +57,6 @@ Support for Venu 4 in 45 and 41mm Screen Variants, Heartrate moniker changed fro
 ### Edit 2 11/2025
 Since i've gotten a User Feedback Email (yes apparently that does happen), ive included the iconic orange ring around the Edge of the Display, ive also added the Ingame font 'Borda' to the Watchface, and now it looks a lot closer to the original  
 I also Fixed a small issue regarding the size of the drawable Layers and removed some files from Ressource folders that arent necessary (the Venu 3 does not care for the Venu 2+ Animation File...)
+
+### Edit 03/2026
+Ive finished the apprenticeship! I also updated and fixed the way the Watchface reads and uses the Weatherdata. With this the IQ Breaking issue shouldnt occur anymore, and the watchface should be able to run even without a bluetooth connection to the phone
