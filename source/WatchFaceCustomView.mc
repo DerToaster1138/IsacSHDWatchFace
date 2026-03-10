@@ -150,7 +150,14 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
                 batCharge.setText(batteryCharge());
 
                 //get Temperature by reusing WeatherData
-                currentTemperature = weatherdata.temperature.toNumber() ;
+                if(weatherdata != null)
+                {
+                    currentTemperature = weatherdata.temperature.toNumber() ;
+                }
+                else
+                {
+                    currentTemperature = "??";
+                }
                 var temperatureString = Lang.format(WatchUi.loadResource(Rez.Strings.TemperatureFormat), [currentTemperature]);
                 var temperatureText = View.findDrawableById("CurrentTemps") as Text;
                 temperatureText.setColor(Application.Properties.getValue("ForegroundColor") as Number);
@@ -196,7 +203,15 @@ class WatchFaceCustomView extends WatchUi.WatchFace {
 
     function getRainChance() as Lang.String
     {
-        var rainfallChance = weatherdata.precipitationChance;
+        var rainfallChance;
+        if(weatherdata != null)
+        {
+            rainfallChance = weatherdata.precipitationChance;
+        }
+        else
+        {
+            rainfallChance = "??";
+        }
         var rainString = Lang.format(WatchUi.loadResource(Rez.Strings.rainFormat), [rainfallChance]);
         return rainString;
     }
