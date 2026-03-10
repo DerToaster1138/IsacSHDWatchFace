@@ -18,9 +18,4 @@
             <listEntry value="0xFF6B13">@Strings.ColorOrange</listEntry>
         </settingConfig>
     </setting>
-
-    <setting propertyKey="@Properties.UseMilitaryFormat" title="@Strings.MilitaryFormatTitle">
-        <settingConfig type="boolean" />
-    </setting>
-
 </settings>
