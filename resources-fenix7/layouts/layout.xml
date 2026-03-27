@@ -1,0 +1,11 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="TimeLabel" x="center" y="10" font="@Fonts.bordaFontTiny" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="RainChance" x="20" y="140" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
+    <label id="CurrentTemps" x="15" y="center" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_BLUE" />
+    <label id="BatCharge" x="center" y="center" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="DateTime" x="center" y="200" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+    <label id="Steps" x="240" y="90" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
+    <label id="Stress" x="245" y="center" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
+    <label id="Heartrate" x="240" y="140" font="@Fonts.bordaFontXTiny" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" />
+</layout>
