@@ -36,5 +36,5 @@ jobs:
       - name: Upload release artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: ISAC-${{ github.ref_name }}-${{ github.run_id }}
+          name: ISAC-MAIN-${{ github.run_id }}
           path: out/ISAC.iq
