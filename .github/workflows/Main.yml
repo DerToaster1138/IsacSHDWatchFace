@@ -20,7 +20,7 @@ jobs:
     environment: Build
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Using BuildConnectIQ
   # You may pin to the exact commit or the version.
   # uses: blackshadev/garmin-connectiq-release-action@adc9fc3fa083615a8e62d476fc58f1efbb80d3b7
@@ -34,7 +34,7 @@ jobs:
           outputPath: ./out/ISAC.iq
           
       - name: Upload release artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ISAC-${{ github.ref_name }}-${{ github.run_id }}
           path: out/ISAC.iq
